@@ -33,6 +33,5 @@ def setup(app):
     """Initialize
     :param app: Sphinx application context.
     """
-    app.info('Initializing Basicstrap theme directives')
     app.add_role('fonticon', fonticon_role)
     return
